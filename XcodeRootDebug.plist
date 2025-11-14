@@ -1,7 +1,13 @@
 {
 	Filter = {
+		Bundles = (
+			"com.apple.remoted",
+			"com.apple.lockdownd"
+		);
 		Executables = (
 			lockdownd,
+			remoted,
+			dtdebugproxyd
 		);
 	};
 }
